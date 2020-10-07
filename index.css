@@ -1,0 +1,104 @@
+.title {
+  font-size: 60px;
+  color: #02cdd4;
+  font-family: 'arial unicode ms';
+  font-weight: bold;
+  margin: auto;
+  text-shadow: 3px 3px 0 #95ebd8;
+  margin: 50px;
+}
+
+.selectButton {
+  background-color: rgb(248, 116, 8);
+  width: 100px;
+  height: 60px;
+  font-size: 17px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 0px;
+  transition: 300ms;
+  margin: 20px 20px 10px 100px;
+  outline: none;
+}
+
+#suspensionButton,
+#answerButton,
+#hintButton {
+  color: white;
+  font-size: 17px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 0px;
+  margin: 35px 0px 20px 30px;
+  outline: none;
+}
+
+#suspensionButton {
+  background-color: rgb(233, 47, 47);
+}
+
+#answerButton {
+  background-color: rgb(73, 73, 243);
+}
+
+#hintButton {
+  background-color: rgb(196, 141, 218);
+}
+
+#answerArea {
+  text-align: center;
+}
+
+#mainArea {
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#japanArea {
+  float: left;
+  width: 50%;
+}
+
+#englishArea {
+  float: right;
+  width: 50%;
+}
+
+.jpButton {
+  background-color: rgb(240, 113, 113);
+}
+
+.enButton {
+  background-color: aquamarine;
+}
+
+.jpButton,
+.enButton {
+  font-size: 17px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 0px;
+  transition: 300ms;
+  margin-right: 25px;
+  margin-bottom: 30px;
+  outline: none;
+  z-index:1;
+}
+.jpButton:hover,
+.enButton:hover {
+  transform: scale(1.2,1.2);
+}
+
+#gametextArea {
+  position:fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 15px 30px;
+  background: black;
+  opacity: 80%;
+  text-align: center;
+  font-size: 30px;
+	width: 300px;
+}
