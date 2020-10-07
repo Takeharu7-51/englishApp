@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>シャッフル</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <p class="title">英語アプリ</p>
+  <div id="topArea">
+    <button onclick="dailyConversation()" class="selectButton">日常会話</button>
+    <button onclick="trip()" class="selectButton">旅行</button>
+    <button onclick="emotions()" class="selectButton">感情</button>
+  </div>
+  <div id="optionArea">
+    <button id="suspensionButton" onclick="suspension()">練習を終了</button>
+  </div>
+  <div id="answerArea"></div>
+  <div id="mainArea">
+    <div id="japanArea"></div>
+    <div id="englishArea"></div>
+  </div>
+  <div id="gametextArea">
+    <p id="gameText"></p>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
